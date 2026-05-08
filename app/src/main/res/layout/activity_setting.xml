@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.setting.SettingActivity">
+
+    <TextView
+        android:id="@+id/tvSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/figtree_bold"
+        android:text="@string/setting"
+        android:textColor="@color/color_primary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/tvSetting">
+
+        <TextView
+            android:paddingEnd="12dp"
+            android:id="@+id/llLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/figtree_medium"
+            android:paddingVertical="10dp"
+            android:text="@string/language"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_next_setting"
+            app:drawableStartCompat="@drawable/ic_language" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_secondary" />
+
+        <TextView
+            android:id="@+id/llRate"
+            android:paddingEnd="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/figtree_medium"
+            android:paddingVertical="10dp"
+            android:text="@string/rate"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_next_setting"
+            app:drawableStartCompat="@drawable/ic_rate" />
+
+        <View
+            android:id="@+id/lineRate"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_secondary" />
+
+        <TextView
+            android:id="@+id/llShare"
+            android:paddingEnd="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/figtree_medium"
+            android:paddingVertical="10dp"
+            android:text="@string/share"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_next_setting"
+            app:drawableStartCompat="@drawable/ic_share" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_secondary" />
+
+        <TextView
+            android:id="@+id/llFeedback"
+            android:paddingEnd="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/figtree_medium"
+            android:paddingVertical="10dp"
+            android:text="@string/feedback"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_next_setting"
+            app:drawableStartCompat="@drawable/ic_feedback" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/color_secondary" />
+
+        <TextView
+            android:id="@+id/llPolicy"
+            android:layout_width="match_parent"
+            android:paddingEnd="12dp"
+            android:layout_height="wrap_content"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/figtree_medium"
+            android:paddingVertical="10dp"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_next_setting"
+            app:drawableStartCompat="@drawable/ic_policy" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
