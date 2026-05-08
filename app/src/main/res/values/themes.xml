@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme -->
-    <style name="Base.Theme.BASE_TEMPLATE" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.V360_AI_HOME" parent="Theme.Material3.DayNight.NoActionBar">
 
         <!-- status bar background -->
         <item name="android:statusBarColor">@android:color/white</item>
@@ -10,5 +10,5 @@
 
     </style>
 
-    <style name="Theme.BASE_TEMPLATE" parent="Base.Theme.BASE_TEMPLATE" />
+    <style name="Theme.V360_AI_HOME" parent="Base.Theme.V360_AI_HOME" />
 </resources>

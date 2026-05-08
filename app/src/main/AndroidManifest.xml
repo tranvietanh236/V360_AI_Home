@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.BASE_TEMPLATE">
+        android:theme="@style/Theme.V360_AI_HOME">
         <activity
             android:name=".ui.no_internet.NoInternetActivity"
             android:exported="false" />

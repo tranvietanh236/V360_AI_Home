@@ -7,6 +7,7 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        google()
         mavenCentral()
         gradlePluginPortal()
     }
@@ -16,9 +17,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        gradlePluginPortal()
     }
 }
 
-rootProject.name = "BASE_TEMPLATE"
+rootProject.name = "V360_AI_HOME"
 include(":app")
  

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app id admob-->
+    <string name="app_id_admob" translatable="false"></string>
+
+    <!--fb-->
+    <string name="facebook_app_id" translatable="false"></string>
+    <string name="facebook_client_token" translatable="false"></string>
+
+    <!--adjust-->
+    <string name="adjust_token" translatable="false"></string>
+
+    <!--adjust_token_event-->
+    <string name="adjust_token_event" translatable="false"></string>
+
+</resources>

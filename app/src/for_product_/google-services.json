@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "961260827435",
+    "project_id": "v340-ai-video-maker-fordev",
+    "storage_bucket": "v340-ai-video-maker-fordev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961260827435:android:9fd818d5b2e8927d71cb6e",
+        "android_client_info": {
+          "package_name": "com.homedesign.interiordesign.aihome"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_RwbX6a-jy8t6YoLpandJO3cXXOfRXHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
